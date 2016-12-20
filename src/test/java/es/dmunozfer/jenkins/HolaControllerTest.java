@@ -43,7 +43,7 @@ public class HolaControllerTest {
 	.andExpect(view().name("hola"))
 	.andExpect(model().attributeExists("nombre"))
 	.andExpect(model().attribute("nombre", is("Mundo")))
-	.andExpect(content().string(containsString("¡Hola Mundo!")))
+	.andExpect(content().string(containsString("¡Holaa Mundo!")))
 	;
     }
     
